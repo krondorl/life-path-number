@@ -1,0 +1,24 @@
+{
+  "name": "life-path-number",
+  "version": "1.0.0",
+  "description": "Find out your life mission",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "life path number",
+    "calculator",
+    "life mission",
+    "mission number",
+    "numerology"
+  ],
+  "author": "Adam Burucs",
+  "license": "CC BY-NC-ND 4.0",
+  "devDependencies": {
+    "vite": "^5.0.4"
+  }
+}
