@@ -1,3 +1,12 @@
+/**
+ * @license
+ * Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+ * https://creativecommons.org/licenses/by-nc-nd/4.0/
+ * Made by Adam Burucs in 2023.
+ *
+ * Please see LICENSE file in the repo root folder.
+ */
+
 export function sumRecursive(rawNumber) {
   if (rawNumber < 10) {
     return rawNumber;
@@ -7,9 +16,9 @@ export function sumRecursive(rawNumber) {
 
 export function sumNumbers(n) {
   let sum = 0;
-  while (n != 0) {
-    sum = sum + (n % 10);
-    n = parseInt(n / 10);
-  }
+  const numbersSplit = n.toString().split('');
+  numbersSplit.forEach((stringNumber) => {
+    sum += parseInt(stringNumber);
+  });
   return sum;
 }
