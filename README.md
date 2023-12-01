@@ -26,4 +26,4 @@ Please see the description in [LICENSE](LICENSE).
 
 ## Release history
 
-First version made in November, 2023.
+First version published in December, 2023.
