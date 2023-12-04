@@ -6,6 +6,9 @@
  * 
  * Please see LICENSE file in the repo root folder.
  */
+:root {
+  --clr-dice-purple: #7747a0;
+}
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -65,7 +68,19 @@ a {
 }
 
 h1 {
-  color: #a87bd0;
+  color: var(--clr-dice-purple);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--clr-dice-purple);
+}
+
+a:hover {
+  background: var(--clr-dice-purple);
+  color: white;
 }
 
 button {
